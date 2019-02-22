@@ -33,7 +33,7 @@ this.setState({total:this.state.total.slice(0, -1)})
   }
 buttonClicked =(buttonName)=>{
   if(buttonName === '='){
-    this.calculate()
+    this.calculateTotal()
   }else if(buttonName === 'C'){
     this.reset();
   }else if(buttonName === 'CE'){
